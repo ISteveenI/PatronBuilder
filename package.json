@@ -1,0 +1,13 @@
+{
+  "name": "patron-de-diseno-builder",
+  "version": "1.0.0",
+  "description": "Ejemplo de patrón de diseño Builder en TypeScript",
+  "main": "dist/principal.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/principal.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
