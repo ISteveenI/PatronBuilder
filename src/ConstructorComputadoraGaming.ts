@@ -8,6 +8,7 @@ export class ConstructorComputadoraGaming implements ConstructorComputadora {
   constructor() {
     this.computadora = new Computadora();
   }
+  //Builder concreto que implementan los pasos de construcción con componentes específicos para su tipo.
   // Agregar CPU específica para Gaming
   agregarCPU(): void {
     this.computadora.agregarParte("Intel i9 CPU");

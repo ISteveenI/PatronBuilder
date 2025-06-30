@@ -1,5 +1,5 @@
 import { Computadora } from "./Computadora";
-// Interfaz builder que define los métodos para construir las partes de una computadora
+// Builder (Interfaz) que define los métodos para construir las partes de una computadora
 export interface ConstructorComputadora {
   agregarCPU(): void;
   agregarTarjetaGrafica(): void;
